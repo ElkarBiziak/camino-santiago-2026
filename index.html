@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camino de Santiago 2026</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav id="nav">
+        <div class="logo">
+            <img src="img/Pegatina_camino.png" alt="Camino de Santiago">
+        </div>
+
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+
+        <ul id="menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#proyecto">Proyecto</a></li>
+            <li><a href="#historia">Proyecto</a></li>
+            <li><a href="#papeletas">Colaboración</a></li>
+            <li><a href="#premios">Premios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <div class="carousel">
+            <div class="slide active"><img src="img/Camino1.png" alt="Camino de Santiago"></div>
+            <div class="slide"><img src="img/car2.jpeg" alt="Paisaje Camino"></div>
+            <div class="slide"><img src="img/car3.jpeg" alt="Camino"></div>
+            <div class="slide"><img src="img/car4.jpeg" alt="Camino"></div>
+            <div class="slide"><img src="img/car5.jpeg" alt="Camino"></div>
+            <div class="slide"><img src="img/car6.jpeg" alt="Camino"></div>
+            <div class="slide"><img src="img/car7.jpeg" alt="Camino"></div>
+            <div class="slide"><img src="img/car8.jpeg" alt="Camino"></div>
+        </div>
+
+        <div class="overlay">
+            <img src="img/Logo del Camino de Santiago 2025_2026.png" alt="Logo Camino">
+
+            <h1>Camino de Santiago 2026</h1>
+            <p>Proyecto educativo de un grupo de jóvenes de Bizkaia.</p>
+            <p>Colabora con nosotros y participa en el sorteo solidario.</p>
+
+            <a href="#papeletas" class="btn">Colaborar</a>
+
+            <div class="countdown">
+                <p>Sorteo en:</p>
+                <div id="timer">
+                    <span><b id="days">0</b>d</span>
+                    <span><b id="hours">0</b>h</span>
+                    <span><b id="minutes">0</b>m</span>
+                    <span><b id="seconds">0</b>s</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTO -->
+    <section id="proyecto">
+        <h2>Sobre el proyecto</h2>
+
+        <p>Somos un grupo de jóvenes que cada año realiza una etapa del Camino de Santiago dentro de un proyecto educativo y de convivencia.</p>
+
+        <p>A lo largo del curso trabajamos valores como el esfuerzo, la responsabilidad y el trabajo en equipo, que después se ponen en práctica durante el Camino.</p>
+
+        <div class="timeline">
+            <div class="card">
+                <h3>2023</h3>
+                <p>Laredo → Boo de Piélagos</p>
+            </div>
+
+            <div class="card">
+                <h3>2024</h3>
+                <p>Boo de Piélagos → Llanes</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- HISTORIA -->
+    <section id="historia">
+        <h2>El sentido del proyecto</h2>
+
+        <p>El Camino no es un viaje puntual, sino el resultado de un trabajo continuo durante todo el año.</p>
+
+        <div class="card">
+            <p>Los jóvenes se preparan físicamente y participan en distintas actividades para poder afrontar la experiencia en grupo.</p>
+
+            <p>Para muchos, es su primera experiencia de autonomía fuera del entorno familiar, y una oportunidad real de crecimiento personal.</p>
+        </div>
+
+        <div class="card">
+            <h3>Destino de la recaudación</h3>
+
+            <ul>
+                <li>Transporte hasta el inicio del Camino</li>
+                <li>Alojamiento durante las etapas</li>
+                <li>Comidas</li>
+                <li>Material necesario</li>
+                <li>Apoyo para que todos puedan participar independientemente de su situación económica</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>¿Por qué colaborar?</h3>
+
+            <ul>
+                <li>✔️ Ayudas directamente a jóvenes del entorno</li>
+                <li>✔️ Contribuyes a un proyecto educativo basado en valores</li>
+                <li>✔️ Participas en el sorteo solidario</li>
+                <li>✔️ Formas parte de una iniciativa real y cercana</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- COLABORACIÓN -->
+    <section id="papeletas">
+        <h2>Colaboración</h2>
+
+        <div class="card">
+            <p><strong>Papeletas: 2€</strong></p>
+
+            <p>Cada papeleta incluye dos números para el sorteo.</p>
+
+            <p>Disponibles en las parroquias de Barrika, Getxo, Gorliz, Plentzia, Sopela y Urduliz después de la misa de los domingos.</p>
+
+            <p><strong>Sorteo:</strong> 31 de mayo a las 12:30h</p>
+
+            <div class="progress-box">
+                <p><strong>Recaudado:</strong></p>
+                <div class="progress-bar">
+                    <div class="progress" id="progressBar"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PREMIOS -->
+    <section id="premios">
+        <h2>Premios</h2>
+
+        <div class="grid">
+            <div class="card">Juegos de mesa</div>
+            <div class="card">Cuidado personal</div>
+            <div class="card">Viaje sorpresa</div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+
+        <p>📍 Barrika, Getxo, Gorliz, Plentzia, Sopela, Urduliz</p>
+        <p>📅 31 de mayo - 12:30h</p>
+
+        <p>📧 <a href="mailto:elkarbiziak@gmail.com">elkarbiziak@gmail.com</a></p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div>
+                <h3>Elkarbiziak</h3>
+                <p>Camino de Santiago 2026</p>
+            </div>
+
+            <div>
+                <h4>Contacto</h4>
+                <a href="mailto:elkarbiziak@gmail.com">📧 Email</a>
+                <p>📍 Urduliz</p>
+            </div>
+
+            <div>
+                <h4>Redes</h4>
+                <a href="#">Instagram</a>
+                <a href="#">TikTok</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Elkarbiziak</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
