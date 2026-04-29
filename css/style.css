@@ -255,7 +255,7 @@ section {
 
 .progress {
     height: 100%;
-    width: 5%; /*Editar esto para el progreso*/
+    width: 10%; /*Editar esto para el progreso*/
     background: linear-gradient(90deg, #c49b63, #e6c58f);
     transition: width 1.5s ease;
     border-radius: 20px;
